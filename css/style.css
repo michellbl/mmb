@@ -67,8 +67,10 @@ Sobre
 */
 
 #sobre{
-    color: #cecece;
+    background: #fff; 
+    color: #000;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom:25px;
 }
 
 #sobre img{
