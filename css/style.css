@@ -22,7 +22,7 @@ nav.navbar_custom {
 
 }
 nav.navbar-light .navbar-nav .nav-link {
-    color:#000;
+    color:#292929;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -35,8 +35,8 @@ nav.navbar-light .navbar-nav .nav-link:hover {
 }
 
 nav.navbar-light .navbar-toggler .fas.fa-bars {
-    color: #000;
-    border-color: #000;
+    color: #292929;
+    border-color: #292929;
 }
 
 /*
@@ -68,7 +68,7 @@ Sobre
 
 #sobre{
     background: #fff; 
-    color: #000;
+    color: #292929;
     font-family: 'Open Sans', sans-serif;
     padding-bottom:25px;
 }
@@ -77,14 +77,90 @@ Sobre
     width: 90%;
     border-radius: 15px;
 }
+/* 
+    Serviço customization
+*/
+#servico {
+    width: 100%;
+}
+
 
 /*
 Card Customization
 */
+.card {
+    border-radius: 5px;
+}
 
 .card-img{
     text-align: center;
 }
+
+/*
+    Form contato
+*/
+
+.form-contact {
+    width: 100%;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: #B22222;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    transition: 1s;
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
 
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
