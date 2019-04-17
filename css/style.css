@@ -166,6 +166,27 @@ Card Customization
     opacity: 1;
   }
 
+
+/*
+    Footer
+*/
+
+.page-footer{
+
+    color: #E9E9E9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-footer a{
+    color: #E9E9E9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page-footer a:hover{
+    color: #7ee9fc;
+    text-decoration: none;
+}
+
 /* Extra small devices (portrait phones, less than 576px)*/
 /* No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) { 
