@@ -1,26 +1,35 @@
-/**** Layout do body ****/
-html, body{
-    height: 100%;
-    overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #7ee9fc;
-    background-image: linear-gradient(#00d9ff,#0024c2); 
-}
-
 /*
     Google Fonts
 */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+/**** Layout do body ****/
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+    
+    
+}
+
+body{
+    background: linear-gradient(#00d9ff,#0024c2);
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+    padding-bottom: 15px;
+}
+
+hr{
+    background: #fff;
+}
+
 
 /*
 Customização do navbar
 */
-nav.navbar_custom {
-    padding: 15px 0px;
-
-}
 nav.navbar-light .navbar-nav .nav-link {
     color:#292929;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
@@ -31,7 +40,7 @@ nav.navbar-light .navbar-nav .nav-link {
 }
 
 nav.navbar-light .navbar-nav .nav-link:hover {
-    color: #7ee9fc;
+    color: #0024c2;
 }
 
 nav.navbar-light .navbar-toggler .fas.fa-bars {
@@ -42,6 +51,15 @@ nav.navbar-light .navbar-toggler .fas.fa-bars {
 /*
 Customização do carousel
 */
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .carousel-caption{
     color: #fff;
@@ -52,21 +70,11 @@ Customização do carousel
 }
 
 /*
-btn customizado
-*/
-/*
-#btn_custom{
-    background: rgba(0,0,250,0.1);
-    border: 1px solid #fff;
-    border-radius: 15px;
-    font-family: 'Anton', sans-serif;
-}
-*/
-/*
 Sobre
 */
 
 #sobre{
+    text-align: justify;
     background: #fff; 
     color: #292929;
     font-family: 'Open Sans', sans-serif;
@@ -89,12 +97,13 @@ Sobre
 Card Customization
 */
 
-
+.card-text{
+    text-align: justify;
+}
 /*
     Form contato
 */
 #contato{
-    padding-top: 25px;
     background: #fff;
     margin-bottom: 25px;
 }
@@ -103,7 +112,6 @@ Card Customization
 .form-contact {
     border-bottom: 1px solid rgba(0,0,0,0.1);
     width: 95%;
-    font-family: 'Open Sans', sans-serif;
   }
 
  
@@ -142,7 +150,6 @@ Card Customization
     padding-top: 16px;
     padding-left: 0;
     padding-right: 0;
-    font-family: 'Open Sans', sans-serif;
   }
   
   .form-contact-button {
@@ -174,12 +181,10 @@ Card Customization
 .page-footer{
 
     color: #E9E9E9;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .page-footer a{
     color: #E9E9E9;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .page-footer a:hover{
@@ -193,7 +198,7 @@ Card Customization
     .h1-custom {
             font-size: 3em;
         }
-        .btn-custom {
+    .btn-custom {
             margin: 10px 15px;
             font-size: 1em;
         }
